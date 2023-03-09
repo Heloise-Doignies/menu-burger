@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles-burger.css" type="text/css">
+        <title>Menu burger | Accueil</title>
+    </head>
+
+    <body>
+        <!--Code pour le header-->
+        <header> 
+            <a href="#" id="header_page"><img id="header_logo" src="logo-green-planet.png" alt="logo">Nom de la page</a>
+            <nav>  <!--Balise pour la section de navigation-->	
+                <label id="header_burger" for="header_toggle">☰</label> <!--Balise qui est désactivée côté CSS dans le non-responsive (ligne 56 : display:none) et activée dans les media queries-->	
+                <input type="checkbox" id="header_toggle"> <!--Balise qui est désactivée côté CSS dans le non-responsive (ligne 56 : display:none) et activée dans les media queries-->
+                <!--Juste au dessus, on a bien relié le input (id) au label (for)-->
+                <ul id="header_ul">
+                    <li class="header_li"><a title="Accueil" href="#">Accueil</a></li>
+                    <li class="header_li"><a title="Nos services" href="#">Nos services</a></li>
+                    <li class="header_li"><a title="Qui sommes-nous" href="#">Qui sommes-nous ?</a></li>
+                    <li class="header_li"><a title="Contact" href="#">Contact</a></li>
+                    <!--Dans les "href" : mettre les bons liens vers les pages .html-->
+                </ul>
+            </nav>
+        </header>
+
+        <!--Ici le contenu du site web-->
+
+    </body>
+
+</html>
